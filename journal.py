@@ -1,5 +1,4 @@
-from click import option
-import streamlit as st
+import streamlit as st
 from datetime import datetime
 import os
 import whisper
