@@ -63,7 +63,7 @@ diary_note=""
 tab1,tab2=st.tabs(["**Add Diary**","**Search Diary**"])
 with tab1:
     st.markdown(
-    "<h1 style='text-align:center;color:white;'>RECORD HERE</h1>",
+    "<h2 style='text-align:center;color:white;'>RECORD YOUR VOICE</h2>",
     unsafe_allow_html=True
 )
     audio_file=st.audio_input("RECORD HERE",key=f"audio_input_{st.session_state.audio_key}")
