@@ -62,7 +62,10 @@ st.markdown(
 diary_note=""
 tab1,tab2=st.tabs(["**Add Diary**","**Search Diary**"])
 with tab1:
-    st.markdown("Upload your audio file here and convert to diary note")
+    st.markdown(
+    "<h1 style='text-align:center;color:white;'>RECORD HERE</h1>",
+    unsafe_allow_html=True
+)
     audio_file=st.audio_input("record audio",key=f"audio_input_{st.session_state.audio_key}")
     if audio_file is not None:
         with open("audio.wav","wb") as f:
