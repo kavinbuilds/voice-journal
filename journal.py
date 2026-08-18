@@ -5,7 +5,7 @@ import whisper
 from gtts import gTTS
 import tempfile
 
-st.set_page_config(page_title="voice to diary🗣️➡️📔", page_icon=":speech_balloon:", layout="centered")
+st.set_page_config(page_title="DIGITAL DIARY", page_icon=":speech_balloon:", layout="centered")
 st.markdown("""
 <style>
 
