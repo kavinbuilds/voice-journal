@@ -41,7 +41,7 @@ st.markdown(
 
 
 st.markdown(
-    "<h1 style='text-align:center;color:white;'>Voice to Diary</h1>",
+    "<h5 style='text-align:center;color:white;'>VOICE TO DIARY</h5>",
     unsafe_allow_html=True
 )
 
