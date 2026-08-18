@@ -34,7 +34,12 @@ if "edit_area" not in st.session_state:
     st.session_state["edit_area"]=""
 if "diary_note" not in st.session_state:
     st.session_state["diary_note"]=""
-st.markdown("<h6>DIGITAL DIARY</h6>",unsafe_allow_html=True)
+st.image("image2.png", width=180)
+
+st.markdown(
+    "<h1 style='text-align:center;'>Voice to Diary</h1>",
+    unsafe_allow_html=True
+)
 
 st.markdown(
         """
