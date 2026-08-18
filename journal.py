@@ -34,7 +34,7 @@ if "edit_area" not in st.session_state:
     st.session_state["edit_area"]=""
 if "diary_note" not in st.session_state:
     st.session_state["diary_note"]=""
-st.markdown("<h6>DIGITAL DIARY</h6>",layout="centre",unsafe_allow_html=True)
+st.markdown("<h6>DIGITAL DIARY</h6>",unsafe_allow_html=True)
 
 st.markdown(
         """
