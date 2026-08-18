@@ -99,7 +99,9 @@ with tab2:
     "<h1 style='text-align:center;color:white;'>SEARCH BY DIARY</h1>",
     unsafe_allow_html=True
 )
+    st.markdown("---")
     search_date=st.date_input("select date",key="search_date")
+    st.markdown("---")
     if st.button("search",key="search",type="primary",width="stretch"):
         st.session_state["diary_note"]=""
         format_date=search_date.strftime("%d-%m-%y")
