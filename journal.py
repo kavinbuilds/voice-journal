@@ -6,13 +6,20 @@ from gtts import gTTS
 import tempfile
 
 st.set_page_config(page_title="voice to diary🗣️➡️📔", page_icon=":speech_balloon:", layout="centered")
-st.markdown("""
-<style>
-.stApp {
-    background-color: #F5F1E8;
-}
-</style>
-""", unsafe_allow_html=True)
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f0f0f0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 #load the whisper model
 @st.cache_resource
 def load_model():
