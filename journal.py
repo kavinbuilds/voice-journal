@@ -9,19 +9,16 @@ st.set_page_config(page_title="voice to diary🗣️➡️📔", page_icon=":spe
 st.markdown("""
 <style>
 
-/* Main application background */
 [data-testid="stAppViewContainer"] {
-    background-color: #F5F1E8;
+    background-color: #0F172A;
 }
 
-/* Main content area */
 [data-testid="stAppViewContainer"] .main {
-    background-color: #F5F1E8;
+    background-color: #0F172A;
 }
 
-/* Header */
 [data-testid="stHeader"] {
-    background-color: #F5F1E8;
+    background-color: #0F172A;
 }
 
 </style>
