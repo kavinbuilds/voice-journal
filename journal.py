@@ -9,30 +9,16 @@ st.set_page_config(page_title="DIGITAL DIARY", page_icon=":speech_balloon:", lay
 st.markdown("""
 <style>
 
-/* Center the radio buttons */
-div[role="radiogroup"] {
-    justify-content: center;
-    gap: 15px;
+[data-testid="stAppViewContainer"] {
+    background-color: #0F172A;
 }
 
-/* Make each option look like a button */
-div[role="radiogroup"] label {
-    background-color: #1E293B;
-    padding: 10px 25px;
-    border-radius: 10px;
-    cursor: pointer;
+[data-testid="stAppViewContainer"] .main {
+    background-color: #0F172A;
 }
 
-/* Text */
-div[role="radiogroup"] label p {
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-/* Hide radio circle */
-div[role="radiogroup"] label > div:first-child {
-    display: none;
+[data-testid="stHeader"] {
+    background-color: #0F172A;
 }
 
 </style>
