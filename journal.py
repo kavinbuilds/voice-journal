@@ -9,32 +9,30 @@ st.set_page_config(page_title="DIGITAL DIARY", page_icon=":speech_balloon:", lay
 st.markdown("""
 <style>
 
-/* Center the tabs */
-.stTabs [data-baseweb="tab-list"] {
+/* Center the radio buttons */
+div[role="radiogroup"] {
     justify-content: center;
+    gap: 15px;
 }
 
-/* Optional: make tabs wider */
-.stTabs [data-baseweb="tab"] {
-    padding-left: 30px;
-    padding-right: 30px;
+/* Make each option look like a button */
+div[role="radiogroup"] label {
+    background-color: #1E293B;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-</style>
-""", unsafe_allow_html=True)
-st.markdown("""
-<style>
-
-[data-testid="stAppViewContainer"] {
-    background-color: #0F172A;
+/* Text */
+div[role="radiogroup"] label p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
 }
 
-[data-testid="stAppViewContainer"] .main {
-    background-color: #0F172A;
-}
-
-[data-testid="stHeader"] {
-    background-color: #0F172A;
+/* Hide radio circle */
+div[role="radiogroup"] label > div:first-child {
+    display: none;
 }
 
 </style>
