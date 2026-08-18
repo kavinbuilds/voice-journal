@@ -9,6 +9,28 @@ st.set_page_config(page_title="DIGITAL DIARY", page_icon=":speech_balloon:", lay
 st.markdown("""
 <style>
 
+/* Center tab buttons */
+.stTabs [data-baseweb="tab-list"] {
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Tab size */
+.stTabs [data-baseweb="tab"] {
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+/* Active tab */
+.stTabs [aria-selected="true"] {
+    font-weight: bold;
+}
+
+</style>
+""", unsafe_allow_html=True)
+st.markdown("""
+<style>
+
 [data-testid="stAppViewContainer"] {
     background-color: #0F172A;
 }
