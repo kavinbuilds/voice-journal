@@ -9,21 +9,15 @@ st.set_page_config(page_title="DIGITAL DIARY", page_icon=":speech_balloon:", lay
 st.markdown("""
 <style>
 
-/* Center tab buttons */
+/* Center the tabs */
 .stTabs [data-baseweb="tab-list"] {
     justify-content: center;
-    gap: 10px;
 }
 
-/* Tab size */
+/* Optional: make tabs wider */
 .stTabs [data-baseweb="tab"] {
-    padding: 10px 30px;
-    font-size: 16px;
-}
-
-/* Active tab */
-.stTabs [aria-selected="true"] {
-    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 </style>
