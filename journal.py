@@ -35,13 +35,13 @@ if "edit_area" not in st.session_state:
 if "diary_note" not in st.session_state:
     st.session_state["diary_note"]=""
 st.markdown(
-    "<h1 style='text-align:center;color:white;'>AI POWERED</h1>",
+    "<h5 style='text-align:center;color:white;'>AI POWERED</h5>",
     unsafe_allow_html=True
 )
 
 
 st.markdown(
-    "<h5 style='text-align:center;color:white;'>VOICE TO DIARY</h5>",
+    "<h2 style='text-align:center;color:white;'>VOICE TO DIARY</h2>",
     unsafe_allow_html=True
 )
 
