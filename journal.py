@@ -34,7 +34,7 @@ if "edit_area" not in st.session_state:
     st.session_state["edit_area"]=""
 if "diary_note" not in st.session_state:
     st.session_state["diary_note"]=""
-st.image("imeg2.png", width=180)
+st.image("imeg2.png", width=300)
 
 st.markdown(
     "<h1 style='text-align:center;'>Voice to Diary</h1>",
