@@ -66,7 +66,9 @@ with tab1:
     "<h5 style='text-align:center;color:white;'>RECORD YOUR VOICE</h5>",
     unsafe_allow_html=True
 )
+    st.markdown("---")
     audio_file=st.audio_input("RECORD HERE",key=f"audio_input_{st.session_state.audio_key}")
+    st.markdown("---")
     if audio_file is not None:
         with open("audio.wav","wb") as f:
             f.write(audio_file.read())
